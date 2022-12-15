@@ -41,7 +41,7 @@ export default {
           title: "4) Joy to the World",
           credits: "Track 18 on Canterbury Organ and Chimes of Christmas",
           lyrics:
-            "[Verse 1]\nJoy to the world, the Lord has come\nLet earth receive her King\nLet every heart prepare Him room\nAnd heaven and nature sing, and heaven and nature sing\nAnd heaven, and heaven and nature sing\n\n[Verse 2]\nJoy to the earth, the Savior reigns\nLet men their songs employ\nWhile fields and floods, rocks, hills, and plains\nRepeat the sounding joy, repeat the sounding joy\nRepeat, repeat the sounding joy\n\n[Verse 3]\nNo more let sins and sorrows grow\nNor thorns infest the ground\nHe comes to make His blessings flow\nFar as the curse is found, far as the curse is found\nFar as, far as the curse is found\n\n[Verse 4]\nHe rules the world with truth and grace\nAnd makes the nations prove\nThe glories of His righteousness\nAnd wonders of His love, and wonders of His love\nAnd wonders, wonders of His love",
+            "[Verse 1]\nJoy to the world, the Lord has come\nLet earth receive her King\nLet every heart prepare Him room\nAnd heaven and nature sing, and heaven \nand nature sing\nAnd heaven, and heaven and nature sing\n\n[Verse 2]\nJoy to the earth, the Savior reigns\nLet men their songs employ\nWhile fields and floods, rocks, hills, and \nplains\nRepeat the sounding joy, \nrepeat the sounding joy\nRepeat, repeat the sounding joy\n\n[Verse 3]\nNo more let sins and sorrows grow\nNor thorns infest the ground\nHe comes to make His blessings flow\nFar as the curse is found, \nfar as the curse is found\nFar as, far as the curse is found\n\n[Verse 4]\nHe rules the world with truth and grace\nAnd makes the nations prove\nThe glories of His righteousness\nAnd wonders of His love, \nand wonders of His love\nAnd wonders, wonders of His love",
         },
         {
           id: 4,
@@ -59,17 +59,24 @@ export default {
         },
         {
           id: 6,
-          title: "6) Rudolph the Red-Nosed Reindeer",
+          title: "7) Rudolph the Red-Nosed Reindeer",
           credits: "Track 2 on A New Age Christmas ",
           lyrics:
             "You know Dasher and Dancer\nAnd Prancer and Vixen\nComet and Cupid\nAnd Donner and Blitzen\nBut do you recall\nThe most famous reindeer of all?\nRudolph the red- nosed reindeer\n          (reindeer)\nHad a very shiny nose\n          (like a light bulb)\nAnd if you ever saw it\n        (saw it)\nYou would even say it glows\n        (like a flashlight)\nAll of the other reindeer\n        (reindeer)\nUsed to laugh and call him names\n        (like Pinocchio)\nThey never let poor Rudolph\n        (Rudolph)\nPlay in any reindeer games\n        (like Monopoly)\nThen one foggy Christmas Eve\nSanta came to say\n        (Ho Ho Ho)\nRudolph with your nose so bright\nWon't you guide my sleigh tonight?\nThen how the reindeer loved him\n        (loved him)\nAs they shouted out with glee\n        (yippee)\n\"Rudolph the red-nosed reindeer\n        (reindeer)\nYou'll go down in history!\"\n        (like Columbus) ",
         },
         {
           id: 7,
-          title: "7) Hark! The Herald Angels Sing",
+          title: "8) Hark! The Herald Angels Sing",
           credits: "Track 13 Canterbury Organ and Chimes of Christmas",
           lyrics:
             '[Verse 1]\nHark! the herald angels sing:\n"Glory to the newborn King!\nPeace on earth and mercy mild\nGod and sinners reconciled"\nJoyful, all ye nations rise\nJoin the triumph of the skies\nWith angelic hosts proclaim:\n"Christ is born in Bethlehem"\nHark! the herald angels sing:\n"Glory to the newborn King!"\n\n[Verse 2]\nChrist by highest Heav\'n adored\nChrist the everlasting Lord!\nLate in time behold Him come\nOffspring of a Virgin\'s womb\nVeiled in flesh the Godhead see;\nHail the incarnate Deity\nPleased as man with man to dwell\nJesus, our Emmanuel\nHark! the herald angels sing:\n"Glory to the newborn King!"\n\n[Verse 3]\nHail the Heav\'n-born Prince of Peace!\nHail the Son of Righteousness!\nLight and life to all He brings\nRis\'n with healing in His wings\nMild He lays His glory by\nBorn that man no more may die\nBorn to raise the sons of earth\nBorn to give them second birth\nHark! the herald angels sing:\n"Glory to the newborn King!"',
+        },
+        {
+          id: 8,
+          title: "9) The Twelve Days of Christmas",
+          credits: "Track 11 on A New Age Christmas ",
+          lyrics:
+            "[Verse 1]\nOn the first day of Christmas, \nmy true love sent to me\nA partridge in a pear tree\n[Verse 2]\nOn the second day of Christmas, \nmy true love sent to me\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 3]\nOn the third day of Christmas, \nmy true love sent to me\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 4]\n On the fourth day of Christmas, \nmy true love sent to me\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 5]\n On the fifth day of Christmas, \nmy true love sent to me\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 6]\n On the sixth day of Christmas, \nmy true love sent to me\nSix geese a- laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 7]\nOn the seventh day of Christmas,\nmy true love sent to me\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n [Verse 8]\nOn the eighth day of Christmas,\nmy true love sent to me\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 9]\nOn the ninth day of Christmas, \nmy true love sent to me\nNine ladies dancing\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 10]\nOn the tenth day of Christmas, \nmy true love sent to me\nTen lords a - leaping\nNine ladies dancing\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree",
         },
       ],
     };
