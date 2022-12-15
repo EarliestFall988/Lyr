@@ -1,7 +1,7 @@
 <template>
     <div>
         <button class="text-lg text-gray-200 bg-gray-900 p-2 rounded" @click="toggleLyrics">{{ title }}</button>
-        <p class="text-sm text-gray-500 mx-2">{{ credits }}</p>
+        <p class="text-sm text-gray-500 mx-2 mb-4">{{ credits }}</p>
         <Transition enter-from-class="translate-y-[-5%] opacity-0" enter-active-class="transition duration-30"
             leave-to-class="translate-y-[-5%] opacity-0" leave-active-class="transition duration-30">
         <div v-if="lyricsOpen">
