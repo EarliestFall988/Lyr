@@ -78,6 +78,48 @@ export default {
           lyrics:
             "[Verse 1]\nOn the first day of Christmas, \nmy true love sent to me\nA partridge in a pear tree\n[Verse 2]\nOn the second day of Christmas, \nmy true love sent to me\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 3]\nOn the third day of Christmas, \nmy true love sent to me\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 4]\n On the fourth day of Christmas, \nmy true love sent to me\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 5]\n On the fifth day of Christmas, \nmy true love sent to me\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 6]\n On the sixth day of Christmas, \nmy true love sent to me\nSix geese a- laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 7]\nOn the seventh day of Christmas,\nmy true love sent to me\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n [Verse 8]\nOn the eighth day of Christmas,\nmy true love sent to me\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 9]\nOn the ninth day of Christmas, \nmy true love sent to me\nNine ladies dancing\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree\n[Verse 10]\nOn the tenth day of Christmas, \nmy true love sent to me\nTen lords a - leaping\nNine ladies dancing\nEight maids a - milking\nSeven swans a - swimming\nSix geese a - laying\nFive golden rings\nFour calling birds\nThree french hens\nTwo turtle doves, and\nA partridge in a pear tree",
         },
+        {
+          id: 9,
+          title: "10) What Child Is This?",
+          credits: "Track 8 on Rocky Mountain Christmas lyrics",
+          lyrics:
+            "[Verse 1]\nWhat child is this, who, laid to rest\nOn Mary's lap is sleeping?\nWhom angels greet with anthems sweet\nWhile shepherds watch are keeping?\n\n[Chorus]\nThis, this is Christ the King\nWhom shepherds guard and angels sing\nHaste, haste to bring him laud\nThe babe, the son of Mary\n[Verse 2]\nWhy lies he in such mean estate\nWhere ox and ass are feeding?\nGood Christian, fear: for sinners here\nThe silent Word is pleading\n\n[Chorus]\nThis, this is Christ the King\nWhom shepherds guard and angels sing\nHaste, haste to bring him laud\nThe babe, the son of Mary\n\n[Verse 3]\n      So bring him incense, gold, and myrrh\nCome, peasant, king, to own him\nThe King of Kings salvation brings\nLet loving hearts enthrone him\n\n[Chorus]\nThis, this is Christ the King\nWhom shepherds guard and angels sing\nHaste, haste to bring him laud\nThe babe, the son of Mary",
+        },
+        {
+          id: 10,
+          title: "11) The First Noel",
+          credits: "The Tabernacle Choir at Temple Square",
+          lyrics:
+            "The First Nowell, the angels did say\nWas to certain poor shepherds in fields as they lay\nIn fields where they lay keeping their sheep\nOn a cold winter's night that was so deep\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nThey looked up and saw a star\nShining in the east beyond them far\nAnd to the earth it gave great light\nAnd so it continued both day and night\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nThen let us all with one accord\nSing praises to our heavenly Lord\n[Incomprehensible]\nAnd with His blood mankind has bought\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nNowell, Nowell, Nowell, Nowell, born is the King of Israel",
+        },
+        {
+          id: 11,
+          title: "12) O Come All Ye Faithful",
+          credits: 'Nat "King" Cole',
+          lyrics:
+            "Oh, come all ye faithful\nJoyful and triumphant\nO come ye\nO come ye to Bethlehem\nCome and behold Him\nBorn the King of angels\nO come, let us adore Him\nO come, let us adore Him\nO come, let us adore Him\nChrist the Lord\nSing, choirs of angels\nSing in exaltation\nSing, all ye citizens\nOf Heaven above\nGlory to God\nGlory in the highest",
+        },
+        {
+          id: 12,
+          title: "13) O Little Town Of Bethlehem",
+          credits: "Track 12 on Canterbury Organ and Chimes of Christmas",
+          lyrics:
+            "[Verse 1]\nO little town of Bethlehem\nHow still we see thee lie!\nAbove thy deep and dreamless sleep\nThe silent stars go by\nYet in the dark street shineth\nThe everlasting Light\nThe hopes and fears of all the years\nAre met in thee tonight\n\n[Verse 2]\nFor Christ is born of Mary\nAnd gathered all above\nWhile mortals sleep, the angels keep\nTheir watch of wondering love\nO morning stars, together\nProclaim the holy birth\nAnd praises sing to God, the King\nAnd peace to men on earth\n\n[Verse 3]\nHow silently, how silently\nThe wondrous Gift is given!\nSo God imparts to human hearts\nThe blessings of His heaven\nNo ear may hear His coming\nBut in this world of sin\nWhere meek souls will receive Him still\nThe dear Christ enters in\n\n[Verse 4]\nO holy Child of Bethlehem\nDescend to us, we pray\nCast out our sin and enter in\nBe born in us today\nWe hear the Christmas angels\nThe great glad tidings tell\nOh, come to us, abide with us\nOur Lord Immanuel!",
+        },
+        {
+          id: 13,
+          title: "14) Go Tell It On The Mountain",
+          credits: "Track 4 on The Heart of Christmas: Jazz Piano ",
+          lyrics:
+            "Go, tell it on the mountain\nOver the hills and everywhere\nGo, tell it on the mountain\nThat Jesus Christ is born!\n\nWhile shepherds kept their watching\nO'er silent flocks by night\nBehold throughout the heavens\nThere shone a holy light\n\nGo, tell it on the mountain\nOver the hills and everywhere\nGo, tell it on the mountain\nThat Jesus Christ is born!\nThe shepherds feared and trembled\nWhen lo! Above the Earth\nRang out the angel chorus\nThat hailed our Savior's birth\n\nGo, tell it on the mountain\nOver the hills and everywhere\nGo, tell it on the mountain\nThat Jesus Christ is born!\n\nDown in a lowly manger\nOur humble Christ was born\nAnd God sent us salvation\nThat blessed Christmas morn\n\nGo, tell it on the mountain\nOver the hills and everywhere\nGo, tell it on the mountain\nThat Jesus Christ is born!",
+        },
+        {
+          id: 14,
+          title: "15) Angels We Have Heard On High",
+          credits: "Track 7 on Canterbury Organ and Chimes of Christmas: Classic",
+          lyrics:
+            "[Verse 1]\nAngels we have heard on high\nSweetly singing o'er the plains\nAnd the mountains in reply\nEchoing their joyous strains\n\n[Chorus]\nGloria In Excelsis Deo\nGloria In Excelsis Deo\n\n[Verse 2]\nShepherds why this jubilee ?\nWhy your joyous strains prolong?\nSay what may the tidings be\nWhich inspire your heavenly song?\n[Chorus]\nGloria In Excelsis Deo\nGloria In Excelsis Deo\n\n[Verse 3]\nCome to Bethlehem and see\nHim Whose birth the angels sing;\nCome, adore on bended knee\nChrist the Lord, the newborn King\n\n[Chorus]\nGloria In Excelsis Deo\nGloria In Excelsis Deo\n\n[Verse 4]\nSee within in a manger laid\nJesus Lord of heav'n and earth\nMary, Joseph lend your aid\nWith us sing our Savior's birth",
+        },
       ],
     };
   },
