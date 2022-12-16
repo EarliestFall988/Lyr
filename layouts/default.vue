@@ -4,7 +4,7 @@
       <div v-if="!menuOpen">
         <button
           @click="menuOpen = true"
-          class="bg-gray-900 p-2 mr-1 w-screen text-white font-bold"
+          class="bg-gray-900 p-2 mr-1 w-screen text-gray-300 rounded-b-lg font-bold border-b-2 border-gray-600"
         >
           Menu
         </button>
@@ -20,18 +20,29 @@
     >
       <nav
         v-if="menuOpen"
-        class="bg-gray-900 flex flex-row justify-around w-screen py-5 px-2"
+        class="bg-gray-900 flex flex-row justify-around w-screen py-5 px-2 border-b-2 border-gray-600 rounded-b-lg"
       >
         <!-- <NuxtLink class="font-bold text-white" to="/">Lyr</NuxtLink> -->
         <NuxtLink class="text-white" to="/">Lyrics</NuxtLink>
         <NuxtLink class="text-white" to="/about">About</NuxtLink>
-        <button class="text-white" @click="menuOpen = false">X</button>
+        <button
+          class="text-white border-2 border-red-900 px-2 rounded"
+          @click="menuOpen = false"
+        >
+          Close
+        </button>
       </nav>
     </Transition>
   </div>
 
-  <div class="py-10 mx-5">
+  <div class="pt-[4%] pb-[1%] px-5 bg-gray-800">
     <slot />
+  </div>
+  <div
+    class="py-2 text-center text-white bg-gray-900 rounded-t-lg border-t-2 border-gray-600"
+  >
+    <p>Copyright &copy; Taylor Howell 2022 All Rights Reserved</p>
+    <a href="/about">About</a>
   </div>
 </template>
 
