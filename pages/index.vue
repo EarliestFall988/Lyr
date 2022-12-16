@@ -90,7 +90,7 @@ export default {
           title: "11) The First Noel",
           credits: "The Tabernacle Choir at Temple Square",
           lyrics:
-            "The First Nowell, the angels did say\nWas to certain poor shepherds in fields as they lay\nIn fields where they lay keeping their sheep\nOn a cold winter's night that was so deep\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nThey looked up and saw a star\nShining in the east beyond them far\nAnd to the earth it gave great light\nAnd so it continued both day and night\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nThen let us all with one accord\nSing praises to our heavenly Lord\n[Incomprehensible]\nAnd with His blood mankind has bought\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nNowell, Nowell, Nowell, Nowell, born is the King of Israel\nNowell, Nowell, Nowell, Nowell, born is the King of Israel",
+            "The First Noel, the angels did say\nWas to certain poor shepherds in fields as they lay\nIn fields where they lay keeping their sheep\nOn a cold winter's night that was so deep\nNoel, Noel, Noel, Noel, born is the King of Israel\nThey looked up and saw a star\nShining in the east beyond them far\nAnd to the earth it gave great light\nAnd so it continued both day and night\nNoel, Noel, Noel, Noel, born is the King of Israel\nThen let us all with one accord\nSing praises to our heavenly Lord\n[Incomprehensible]\nAnd with His blood mankind has bought\nNoel, Noel, Noel, Noel, born is the King of Israel\nNoel, Noel, Noel, Noel, born is the King of Israel\nNoel, Noel, Noel, Noel, born is the King of Israel",
         },
         {
           id: 11,

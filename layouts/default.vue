@@ -35,7 +35,7 @@
     </Transition>
   </div>
 
-  <div class="pt-[4%] pb-[1%] px-5 bg-gray-800">
+  <div class="pt-[4em] pb-[1%] px-5 bg-gray-800">
     <slot />
   </div>
   <div
