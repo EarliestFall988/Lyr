@@ -39,7 +39,7 @@
     <slot />
   </div>
   <div
-    class="py-2 text-center text-white bg-gray-900 rounded-t-lg border-t-2 border-gray-600"
+    class="py-2 text-center text-white bg-gray-900 rounded-t-lg border-t-2 border-gray-600 border-b-2 border-gray-600"
   >
     <p>Copyright &copy; Taylor Howell 2022 All Rights Reserved</p>
     <a href="/about">About</a>
