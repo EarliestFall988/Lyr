@@ -405,3 +405,5 @@ FodyWeavers.xsd
 node_modules
 # System files
 *.log
+
+sw.*

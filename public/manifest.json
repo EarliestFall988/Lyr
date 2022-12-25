@@ -1,0 +1,17 @@
+{
+    "name": "Lyr (Musician's quick lyric app)",
+    "short_name": "Lyr",
+    "description" : "Quickly distribute lyrics with little hassle",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "types": "img/png",
+            "sizes": "512x512",
+            "purpose": "any"
+        }
+    ],
+    "start_url": "/?source=pwa",
+    "display": "fullscreen",
+    "background_color": "#111",
+    "theme_color": "#111"
+}
