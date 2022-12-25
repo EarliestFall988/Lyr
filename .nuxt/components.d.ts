@@ -2,6 +2,7 @@
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'LyricMenuButton': typeof import("../components/LyricMenuButton.vue")['default']
+    'LyricWindowPanel': typeof import("../components/LyricWindowPanel.vue")['default']
     'MenuDialog': typeof import("../components/MenuDialog.vue")['default']
     'NavButton': typeof import("../components/NavButton.vue")['default']
     'PageHeader': typeof import("../components/PageHeader.vue")['default']
@@ -71,6 +72,7 @@ declare module '@vue/runtime-core' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyLyricMenuButton': typeof import("../components/LyricMenuButton.vue")['default']
+    'LazyLyricWindowPanel': typeof import("../components/LyricWindowPanel.vue")['default']
     'LazyMenuDialog': typeof import("../components/MenuDialog.vue")['default']
     'LazyNavButton': typeof import("../components/NavButton.vue")['default']
     'LazyPageHeader': typeof import("../components/PageHeader.vue")['default']
@@ -143,6 +145,7 @@ declare module '@vue/runtime-core' {
 }
 
 export const LyricMenuButton: typeof import("../components/LyricMenuButton.vue")['default']
+export const LyricWindowPanel: typeof import("../components/LyricWindowPanel.vue")['default']
 export const MenuDialog: typeof import("../components/MenuDialog.vue")['default']
 export const NavButton: typeof import("../components/NavButton.vue")['default']
 export const PageHeader: typeof import("../components/PageHeader.vue")['default']
@@ -212,6 +215,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyLyricMenuButton: typeof import("../components/LyricMenuButton.vue")['default']
+export const LazyLyricWindowPanel: typeof import("../components/LyricWindowPanel.vue")['default']
 export const LazyMenuDialog: typeof import("../components/MenuDialog.vue")['default']
 export const LazyNavButton: typeof import("../components/NavButton.vue")['default']
 export const LazyPageHeader: typeof import("../components/PageHeader.vue")['default']

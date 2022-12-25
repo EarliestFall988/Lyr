@@ -4,7 +4,7 @@
        
         <Transition enter-from-class="translate-y-[-5%] opacity-0" enter-active-class="transition duration-300"
             leave-to-class="translate-y-[-5%] opacity-0" leave-active-class="transition duration-300">
-        <div v-if="lyricsOpen">
+        <div v-if="lyricsOpen" @toggle.stop="handleLyrics">
             <p class="overflow-x-hidden text-sm bg-gray-900 rounded-b p-2 border-t-2 border-gray-600 leading-loose" >
             <pre>{{ lyrics }}</pre>
             </p>
@@ -19,16 +19,25 @@
 export default {
 
     name: "LyricMenuButton",
-    props: ['title', 'credits', 'lyrics'],
-    data() {
-        return {
-            lyricsOpen: false
+    props: ['title', 'credits', 'lyrics', 'id'],
+    emits: ['lyricToggle'],
+       methods: {
+        toggleLyrics() {
+            this.$emit('lyricToggle', this.id);
+            this.lyricsOpen = true
+        },
+        handleLyrics(id)
+        {
+            if (id !== this.id)
+            {
+                this.lyricsOpen = false
+            }
         }
     },
-    methods: {
-        toggleLyrics() {
-            this.lyricsOpen = !this.lyricsOpen;
-        }
+    data() {
+        return {
+            lyricsOpen: false,
+        };
     },
 }
 

@@ -1,8 +1,30 @@
 <template>
-  <div class="text-white">
+  <LyricWindowPanel
+    v-if="selectedMusic != null"
+    @close="close"
+    :title="selectedMusic.title"
+    :lyrics="selectedMusic.lyrics"
+  />
+  <div class="text-white px-3">
     <PageHeader title="Welcome" desc="Find lyrics to your music below" />
-    <div v-for="mus in music" :key="mus.id">
-      <LyricMenuButton :title="mus.title" :credits="mus.credits" :lyrics="mus.lyrics" />
+    <div class="my-5">
+      <div v-for="mus in music" :key="mus.id" class="mb-3">
+        <!-- <LyricMenuButton
+        :title="mus.title"
+        :credits="mus.credits"
+        :lyrics="mus.lyrics"
+        :id="mus.id"
+        @lyricToggle="closeAll"
+      /> -->
+
+        <button
+          @click="selectMusic(mus)"
+          class="my-2 py-3 bg-gray-900 w-full rounded shadow-sm"
+        >
+          {{ mus.title }}
+        </button>
+        <div class="text-gray-600 text-sm italic">{{ mus.credits }}</div>
+      </div>
     </div>
   </div>
 </template>
@@ -12,11 +34,23 @@ import PageHeader from "../components/PageHeader.vue";
 import LyricMenuButtonVue from "~~/components/LyricMenuButton.vue";
 export default {
   components: [PageHeader, LyricMenuButtonVue],
+  emits: ["toggle"],
+  methods: {
+    selectMusic(data) {
+      this.selectedMusic = data;
+    },
+    close() {
+      this.selectedMusic = null;
+    },
+  },
   data() {
     return {
+      allowOneLyricOpen: true,
+      selectedMusic: {},
       music: [
         {
           id: 0,
+          lyricsOpen: false,
           title: "1) Away in a Manger",
           credits: "Track 17 on Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -24,6 +58,7 @@ export default {
         },
         {
           id: 1,
+          lyricsOpen: false,
           title: "2) Jingle Bells",
           credits: "White Christmas Singers",
           lyrics:
@@ -31,6 +66,7 @@ export default {
         },
         {
           id: 2,
+          lyricsOpen: false,
           title: "3) Silent Night",
           credits: "Track 11 on Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -38,6 +74,7 @@ export default {
         },
         {
           id: 3,
+          lyricsOpen: false,
           title: "4) Joy to the World",
           credits: "Track 18 on Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -45,6 +82,7 @@ export default {
         },
         {
           id: 4,
+          lyricsOpen: false,
           title: "5) Oh Holy Night",
           credits: "Track 14 on Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -52,6 +90,7 @@ export default {
         },
         {
           id: 5,
+          lyricsOpen: false,
           title: "6) O Come, O Come, Emmanuel",
           credits: "Christmas Songs",
           lyrics:
@@ -59,6 +98,7 @@ export default {
         },
         {
           id: 6,
+          lyricsOpen: false,
           title: "7) Rudolph the Red-Nosed Reindeer",
           credits: "Track 2 on A New Age Christmas ",
           lyrics:
@@ -66,6 +106,7 @@ export default {
         },
         {
           id: 7,
+          lyricsOpen: false,
           title: "8) Hark! The Herald Angels Sing",
           credits: "Track 13 Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -73,6 +114,7 @@ export default {
         },
         {
           id: 8,
+          lyricsOpen: false,
           title: "9) The Twelve Days of Christmas",
           credits: "Track 11 on A New Age Christmas ",
           lyrics:
@@ -80,6 +122,7 @@ export default {
         },
         {
           id: 9,
+          lyricsOpen: false,
           title: "10) What Child Is This?",
           credits: "Track 8 on Rocky Mountain Christmas lyrics",
           lyrics:
@@ -87,6 +130,7 @@ export default {
         },
         {
           id: 10,
+          lyricsOpen: false,
           title: "11) The First Noel",
           credits: "The Tabernacle Choir at Temple Square",
           lyrics:
@@ -94,6 +138,7 @@ export default {
         },
         {
           id: 11,
+          lyricsOpen: false,
           title: "12) O Come All Ye Faithful",
           credits: 'Nat "King" Cole',
           lyrics:
@@ -101,6 +146,7 @@ export default {
         },
         {
           id: 12,
+          lyricsOpen: false,
           title: "13) O Little Town Of Bethlehem",
           credits: "Track 12 on Canterbury Organ and Chimes of Christmas",
           lyrics:
@@ -108,6 +154,7 @@ export default {
         },
         {
           id: 13,
+          lyricsOpen: false,
           title: "14) Go Tell It On The Mountain",
           credits: "Track 4 on The Heart of Christmas: Jazz Piano ",
           lyrics:
@@ -115,6 +162,7 @@ export default {
         },
         {
           id: 14,
+          lyricsOpen: false,
           title: "15) Angels We Have Heard On High",
           credits: "Track 7 on Canterbury Organ and Chimes of Christmas: Classic",
           lyrics:

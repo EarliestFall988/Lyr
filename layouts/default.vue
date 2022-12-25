@@ -4,7 +4,7 @@
       <div v-if="!menuOpen">
         <button
           @click="menuOpen = true"
-          class="bg-gray-900 p-2 mr-1 w-screen text-gray-300 rounded-b-lg font-bold border-b-2 border-gray-600"
+          class="bg-gray-900 p-2 z-20 mr-1 w-screen text-gray-300 rounded-b-lg font-bold border-b-2 border-gray-600"
         >
           Menu
         </button>
@@ -20,7 +20,7 @@
     >
       <nav
         v-if="menuOpen"
-        class="bg-gray-900 flex flex-row justify-around w-screen py-5 px-2 border-b-2 border-gray-600 rounded-b-lg"
+        class="bg-gray-900 z-20 flex flex-row justify-around w-screen py-5 px-2 border-b-2 border-gray-600 rounded-b-lg"
       >
         <!-- <NuxtLink class="font-bold text-white" to="/">Lyr</NuxtLink> -->
         <NuxtLink class="text-white" to="/">Lyrics</NuxtLink>
@@ -35,7 +35,7 @@
     </Transition>
   </div>
 
-  <div class="pt-[4em] pb-[1%] px-5 bg-gray-800">
+  <div class="pt-[4em] pb-[1%] bg-gray-800 text-['Open_Sans']">
     <slot />
   </div>
   <div
