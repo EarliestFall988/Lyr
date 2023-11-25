@@ -10,16 +10,27 @@
                 </p>
             </div>
             <p class="-rotate-90 text-2xl font-bold text-gray-400">
-                {{ lyricsOpen ? '>' : '<' }}
-            </p>
+                {{ lyricsOpen ? '>' : '<' }} </p>
         </button>
 
         <Transition enter-from-class="translate-y-[-5%] opacity-0" enter-active-class="transition duration-300"
             leave-to-class="translate-y-[-5%] opacity-0" leave-active-class="transition duration-300">
             <div v-if="lyricsOpen">
-                <p class="border-x text-2xl border-b border-gray-300 p-4">
-                <pre>{{ lyrics }}</pre>
-                </p>
+                <div v-if="size == 1">
+                    <p class="border-x text-xs border-b border-gray-300 p-4">
+                    <pre>{{ lyrics }}</pre>
+                    </p>
+                </div>
+                <div v-if="size == 2">
+                    <p class="border-x text-lg border-b border-gray-300 p-4">
+                    <pre>{{ lyrics }}</pre>
+                    </p>
+                </div>
+                <div v-if="size == 3">
+                    <p class="border-x text-2xl border-b border-gray-300 p-4">
+                    <pre>{{ lyrics }}</pre>
+                    </p>
+                </div>
             </div>
         </Transition>
     </div>
@@ -39,7 +50,7 @@ export default {
     methods: {
         toggleLyrics() {
             this.lyricsOpen = !this.lyricsOpen;
-        }
+        },
     },
 }
 
