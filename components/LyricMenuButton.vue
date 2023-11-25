@@ -1,6 +1,7 @@
 <template>
     <div>
-        <button class="p-4 flex items-center justify-between border-x border-t border-gray-4 w-full" @click="toggleLyrics">
+        <button class="p-4 flex bg-gray-800 items-center justify-between border-x border-t border-gray-4 w-full"
+            @click="toggleLyrics">
             <div>
                 <p class="text-2xl text-left font-semibold text-gray-200">
                     {{ title }}
@@ -15,21 +16,23 @@
 
         <Transition enter-from-class="translate-y-[-5%] opacity-0" enter-active-class="transition duration-300"
             leave-to-class="translate-y-[-5%] opacity-0" leave-active-class="transition duration-300">
-            <div v-if="lyricsOpen">
-                <div v-if="size == 1">
-                    <p class="border-x text-xs border-b border-gray-300 p-4">
-                    <pre>{{ lyrics }}</pre>
-                    </p>
-                </div>
-                <div v-if="size == 2">
-                    <p class="border-x text-lg border-b border-gray-300 p-4">
-                    <pre>{{ lyrics }}</pre>
-                    </p>
-                </div>
-                <div v-if="size == 3">
-                    <p class="border-x text-2xl border-b border-gray-300 p-4">
-                    <pre>{{ lyrics }}</pre>
-                    </p>
+            <div v-if="lyricsOpen" class="p-4">
+                <div class="overflow-x-auto">
+                    <div v-if="size == 1" class="w-full py-4">
+                        <p class="text-xs">
+                        <pre>{{ lyrics }}</pre>
+                        </p>
+                    </div>
+                    <div v-if="size == 2" class="w-full">
+                        <p class=" text-lg">
+                        <pre>{{ lyrics }}</pre>
+                        </p>
+                    </div>
+                    <div v-if="size == 3" class="w-full">
+                        <p class="text-2xl">
+                        <pre>{{ lyrics }}</pre>
+                        </p>
+                    </div>
                 </div>
             </div>
         </Transition>

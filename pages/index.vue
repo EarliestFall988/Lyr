@@ -1,8 +1,11 @@
 <template>
   <div class="text-white">
-    <div class="flex w-full gap-2 p-2 bg-gray-800 items-center justify-between">
-      <p class="w-28">Font Size</p>
-      <select class="w-full p-2 bg-gray-800 text-white" v-model="selected">
+    <div class="flex w-full gap-2 pb-5 pr-1 items-center justify-between">
+      <p class="w-28 lg:w-24 text-lg pl-1 lg:pl-0 font-semibold">Font Size</p>
+      <select
+        class="w-full p-2 bg-gray-800 ring ring-gray-700 hover:ring-gray-600 duration-200 transition outline-none focus:ring-blue-500 rounded-2xl text-lg text-white"
+        v-model="selected"
+      >
         <option disabled value="">Please Select</option>
         <option class="text-md" value="1">Small</option>
         <option class="text-lg" value="2">Medium</option>

@@ -39,7 +39,7 @@
       </Transition>
     </div>
 
-    <div class="pt-20 border-b border-white">
+    <div class="pt-20 border-b lg:w-[80%] lg:m-auto border-white">
       <slot />
     </div>
     <div
