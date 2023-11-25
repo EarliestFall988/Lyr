@@ -6142,15 +6142,15 @@ module.exports = {
   "content": {
     "relative": false,
     "files": [
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/components/**/*.{vue,js,ts}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/layouts/**/*.vue",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/pages/**/*.vue",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/composables/**/*.{js,ts}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/plugins/**/*.{js,ts}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/App.{js,ts,vue}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/app.{js,ts,vue}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/Error.{js,ts,vue}",
-      "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/error.{js,ts,vue}"
+      "C:/Users/howel/Documents/Software Development/Lyr/components/**/*.{vue,js,ts}",
+      "C:/Users/howel/Documents/Software Development/Lyr/layouts/**/*.vue",
+      "C:/Users/howel/Documents/Software Development/Lyr/pages/**/*.vue",
+      "C:/Users/howel/Documents/Software Development/Lyr/composables/**/*.{js,ts}",
+      "C:/Users/howel/Documents/Software Development/Lyr/plugins/**/*.{js,ts}",
+      "C:/Users/howel/Documents/Software Development/Lyr/App.{js,ts,vue}",
+      "C:/Users/howel/Documents/Software Development/Lyr/app.{js,ts,vue}",
+      "C:/Users/howel/Documents/Software Development/Lyr/Error.{js,ts,vue}",
+      "C:/Users/howel/Documents/Software Development/Lyr/error.{js,ts,vue}"
     ],
     "extract": {},
     "transform": {}

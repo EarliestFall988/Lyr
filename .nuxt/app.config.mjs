@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/howel/Documents/Software Development/Lyr/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/node_modules/nuxt/dist/app/entry.mjs": {
+  "C:/Users/howel/Documents/Software Development/Lyr/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "C:/Users/WorkPC/Documents/Web Development/Lyr/Lyr/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "C:/Users/howel/Documents/Software Development/Lyr/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

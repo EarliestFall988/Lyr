@@ -1,16 +1,27 @@
 <template>
     <div>
-        <button class="text-lg text-gray-200 bg-gray-900 p-2 rounded-t w-[100%]" @click="toggleLyrics">{{ title }}</button>
-       
+        <button class="p-4 flex items-center justify-between border-x border-t border-gray-4 w-full" @click="toggleLyrics">
+            <div>
+                <p class="text-2xl text-left font-semibold text-gray-200">
+                    {{ title }}
+                </p>
+                <p class="text-sm text-left text-gray-400">
+                    {{ credits }}
+                </p>
+            </div>
+            <p class="-rotate-90 text-2xl font-bold text-gray-400">
+                {{ lyricsOpen ? '>' : '<' }}
+            </p>
+        </button>
+
         <Transition enter-from-class="translate-y-[-5%] opacity-0" enter-active-class="transition duration-300"
             leave-to-class="translate-y-[-5%] opacity-0" leave-active-class="transition duration-300">
-        <div v-if="lyricsOpen">
-            <p class="overflow-x-hidden text-sm bg-gray-900 rounded-b p-2 border-t-2 border-gray-600 leading-loose" >
-            <pre>{{ lyrics }}</pre>
-            </p>
-        </div>
+            <div v-if="lyricsOpen">
+                <p class="border-x text-2xl border-b border-gray-300 p-4">
+                <pre>{{ lyrics }}</pre>
+                </p>
+            </div>
         </Transition>
-        <p class="text-sm text-gray-500 mx-2 mb-4">{{ credits }}</p>
     </div>
 </template>
 
@@ -19,7 +30,7 @@
 export default {
 
     name: "LyricMenuButton",
-    props: ['title', 'credits', 'lyrics'],
+    props: ['title', 'credits', 'lyrics', 'size'],
     data() {
         return {
             lyricsOpen: false
